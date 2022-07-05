@@ -1,14 +1,16 @@
 body {
     margin: 1.25em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-image: url("images/background-img.jpg");
 }
 
 .avatar {
-    width: 9.375em;
+    width: 15em;
 }
 
 .card {
-    width: 25em;
+    width: 35em;
     margin: 0 auto;
     padding: 1.25em;
     display: flex;
@@ -21,4 +23,16 @@ body {
 
 .border-blue {
     border: 1px dotted blue;
+}
+
+h3 {
+    font-size: 2rem
+}
+
+h4 {
+    font-size: 1.7rem
+}
+
+p {
+    font-size: 1.5rem
 }
